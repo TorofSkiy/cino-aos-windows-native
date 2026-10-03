@@ -1,0 +1,12 @@
+CINO-AOS Windows Native
+Open-source preview, 2026.
+
+The Apache-2.0 license applies to the authorized first-party files in this
+standalone source snapshot. See LICENSE for the full terms.
+It does not relicense the original mother repository, third-party .NET
+components, models, inference engines, Microsoft Windows or brand names.
+Repository maintainer: https://github.com/TorofSkiy
+No SignPath sponsorship or certificate is claimed.
+
+Third-party copyright and license notices are preserved in the build output.
+

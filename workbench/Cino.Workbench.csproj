@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF><RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings>
+    <SelfContained>true</SelfContained><PublishSingleFile>true</PublishSingleFile>
+    <AssemblyName>Cino.Workbench</AssemblyName><Version>0.4.0</Version>
+    <InformationalVersion>0.4.0-network.1</InformationalVersion>
+  </PropertyGroup>
+</Project>

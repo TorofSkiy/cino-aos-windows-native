@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+artifacts/
+.test-runs/
+.env
+*.secret
+*.pfx
+*.p12
+*.key
+*.gguf
+host-state.json
+workbench.json
+

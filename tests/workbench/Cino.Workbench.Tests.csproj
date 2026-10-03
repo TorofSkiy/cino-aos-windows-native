@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0-windows</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../workbench/Workspace.cs" Link="Workspace.cs"/>
+    <Compile Include="../../workbench/WorkspaceLease.cs" Link="WorkspaceLease.cs"/>
+    <Compile Include="../../workbench/LocalModel.cs" Link="LocalModel.cs"/>
+    <Compile Include="../../workbench/ProcessLifetime.cs" Link="ProcessLifetime.cs"/>
+  </ItemGroup>
+</Project>

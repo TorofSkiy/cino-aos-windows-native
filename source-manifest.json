@@ -1,0 +1,239 @@
+{
+  "schema": "cino.opensource.source.v1",
+  "version": "0.4.0-network.2",
+  "stage": "source-preview",
+  "license": "Apache-2.0",
+  "public_release_approved": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": "host/ReleaseClient.cs",
+      "size_bytes": 5387,
+      "sha256": "17af3b284653155b2fd2153397e8004c9523d7263a9aceeaf2c10c4885a01e4a"
+    },
+    {
+      "path": "host/State.cs",
+      "size_bytes": 3289,
+      "sha256": "1cb4489d5e63a0b4c345efec58411600568f9bb70eb9a3f5643d87fe68e2ac44"
+    },
+    {
+      "path": "host/TaskEngine.cs",
+      "size_bytes": 10958,
+      "sha256": "f7c12b8cb9f2c544384a430265d6afc75708949dbc676ea963744eb805cf2ed6"
+    },
+    {
+      "path": "host/WorkbenchBridge.cs",
+      "size_bytes": 2438,
+      "sha256": "dcbe0af34fa2fd903b0f8c2aec9aa2fc766bd0b159f745f3fdd2dae573374b69"
+    },
+    {
+      "path": "scripts/Build.ps1",
+      "size_bytes": 2827,
+      "sha256": "0c627817805d7da4824938d3c36f08224394052638f0fa58349eac78ff1cfc84"
+    },
+    {
+      "path": "scripts/Inventory-Dependencies.ps1",
+      "size_bytes": 3749,
+      "sha256": "2267b5ad02d971b600fc8d6d974147b6495bb60abb70c1ba5dd02ea605dafa6a"
+    },
+    {
+      "path": "scripts/Test-Host.ps1",
+      "size_bytes": 3181,
+      "sha256": "b838c926d54f510eb1c76a0aa9c97126301db6c3d416b4c692017ebd7e3c278c"
+    },
+    {
+      "path": "scripts/Test-Source.ps1",
+      "size_bytes": 3262,
+      "sha256": "beb248e4f1733881162a14b3fc5990742e7c31ba3ed5b6667adfd465ab1878a3"
+    },
+    {
+      "path": "tests/workbench/Cino.Workbench.Tests.csproj",
+      "size_bytes": 571,
+      "sha256": "b25b922ec8851f80f18f24ec1ad416671023279181622bedf07dc80016d701e0"
+    },
+    {
+      "path": "tests/workbench/packages.lock.json",
+      "size_bytes": 71,
+      "sha256": "214aa11374a97df8985e42944a13603eb0f3fd0455b7e238b6f42baa976641a4"
+    },
+    {
+      "path": "tests/workbench/Program.cs",
+      "size_bytes": 8548,
+      "sha256": "b111e0c945879e9ce3c552897f91456f6e58e80b68f9871f0ffe3f788679b65f"
+    },
+    {
+      "path": "workbench/Cino.Workbench.csproj",
+      "size_bytes": 530,
+      "sha256": "2e7b4fd24b3ef7d881034bc42d1ccea87084b6d2fb288c03b21857e981841188"
+    },
+    {
+      "path": "workbench/Diagnostics.cs",
+      "size_bytes": 2416,
+      "sha256": "678819b3a9b9eea8599fd44d7093c49b59345daffc787062738f21dd583902a0"
+    },
+    {
+      "path": "workbench/LocalModel.cs",
+      "size_bytes": 9160,
+      "sha256": "67f4d59486a9732208ee511ff2c6dbda82f013ef79b267303f38cecc2cc0e97b"
+    },
+    {
+      "path": "workbench/NetworkBridge.cs",
+      "size_bytes": 6610,
+      "sha256": "ff11be31c03fb16c17b1cc030704f4c627f3efbdb47e016928abb95c3ea76287"
+    },
+    {
+      "path": "workbench/packages.lock.json",
+      "size_bytes": 364,
+      "sha256": "662f1903a4ad59fc0ec281e75d5c38f37ec7a3fa723d2d48143612b8bed69bfb"
+    },
+    {
+      "path": "workbench/ProcessLifetime.cs",
+      "size_bytes": 2116,
+      "sha256": "2aab4d1029bc5f3f8e1f57e9c3a826868f85f23436f63235e667f07b316af506"
+    },
+    {
+      "path": "workbench/Program.cs",
+      "size_bytes": 16349,
+      "sha256": "06c635aa2f95169d46b67584f49d267f15518928f0a580e56a21e43f6bc55438"
+    },
+    {
+      "path": "workbench/WorkbenchWindow.xaml",
+      "size_bytes": 8026,
+      "sha256": "6a02d5d6c0a7f3407cb1d1c13d31582c3611cf00a4935ce33a504c2759a0c736"
+    },
+    {
+      "path": "host/Protocol.cs",
+      "size_bytes": 6732,
+      "sha256": "57f1188795b97b1c6d6ee3613c6609b9a4c2c2f83e210a033fdfb76fec68e864"
+    },
+    {
+      "path": "host/Program.cs",
+      "size_bytes": 3999,
+      "sha256": "fae79abed64f0424b9e53e65d761825e60444f677235d41b379029e919a820b7"
+    },
+    {
+      "path": "host/packages.lock.json",
+      "size_bytes": 15166,
+      "sha256": "6ebde1b2b90b3a2731bcaf9f5c8a6f0978b014981f6ebf9548c091ae6fbe35ce"
+    },
+    {
+      "path": "host/HostWorker.cs",
+      "size_bytes": 7475,
+      "sha256": "3a7057067ff5047196b79702cffec9d0ae10dc3aaffefc2ecc4480c5cb307036"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 110,
+      "sha256": "5fe45496f079b7c07d4d2cc88ad64f50135c5f609ba1835ea118f67f3ec61631"
+    },
+    {
+      "path": "CODE_SIGNING_POLICY.md",
+      "size_bytes": 2073,
+      "sha256": "21fdeff23c8d85077a0f647cf3bc1da6e58a4da47df2929c5f73030cac7f93cd"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 1421,
+      "sha256": "70dfdf4e48afc29860aa9f2675ff9da6e665139872338de149c2640a6dccf593"
+    },
+    {
+      "path": "Directory.Build.props",
+      "size_bytes": 517,
+      "sha256": "5f9199282e0f15e98301e66fd59ac84717cad14619772bc445c798e0df93e80a"
+    },
+    {
+      "path": "Directory.Build.targets",
+      "size_bytes": 301,
+      "sha256": "fa9576f9109b8c4307891dc64d7c0e978b240a561b9c7532a1322864740e361b"
+    },
+    {
+      "path": "global.json",
+      "size_bytes": 105,
+      "sha256": "0009b95f57403f59b49b5e81d4a37d7df38486b7d8ec236619d631a9bd0fae5d"
+    },
+    {
+      "path": "host.example.json",
+      "size_bytes": 220,
+      "sha256": "14633d9e67d19f7515aeffed483ac36d114779e483a95ff33e8bb88f9dfe2075"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "size_bytes": 513,
+      "sha256": "b43595b7544bffc7e52b70c3c52772f56bdf1ad0a4e3720c9dbb512f55aa0879"
+    },
+    {
+      "path": "workbench/Workspace.cs",
+      "size_bytes": 8335,
+      "sha256": "a22f561c1c14bae9990acc4c7f7904885a201a6b0876da9fb000435c0f18dd5f"
+    },
+    {
+      "path": "NuGet.Config",
+      "size_bytes": 300,
+      "sha256": "ae1e57cb6f58e4c812438a27458617320d7eddaf2842a5b38bb1bea7bbe32c4d"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4902,
+      "sha256": "c53e5d7b0c52996e0a9648abad5abba0d81997b55750cc526a0059fe67f1b5e5"
+    },
+    {
+      "path": "RELEASE_CHECKLIST.md",
+      "size_bytes": 2358,
+      "sha256": "fcc1690f0dc9f647d85e7cf3ec7b58ec5fc966cd37d1add4a0de581b4011200b"
+    },
+    {
+      "path": "runtime-packs.lock.json",
+      "size_bytes": 629,
+      "sha256": "ed8bb1bdf5f711d5b2519cf77b801d25c9dd8d620793bf1ce57dd7373449ff06"
+    },
+    {
+      "path": "SECURITY.md",
+      "size_bytes": 979,
+      "sha256": "9a21aef6cf2d3cf65d04bf5a7a7db610ea78ee7e6def4f76dd8a19e17e21ba09"
+    },
+    {
+      "path": "SIGNPATH_APPLICATION_DRAFT.md",
+      "size_bytes": 1826,
+      "sha256": "f5f1ddd5b464390c6c57ae4f77dadfcaaff57afa2bf8217d7bf23526fdc024e8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1363,
+      "sha256": "3496b919e004de3499eb38d7cde852f657bc55034ef412c0ea06bcd748ed3b20"
+    },
+    {
+      "path": "workbench.example.json",
+      "size_bytes": 171,
+      "sha256": "f3cd9851d83153b2228daed1a61959c3a1b7840ce7ea20eca279a9caef1bb0e0"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size_bytes": 1368,
+      "sha256": "7a5e048ee6a0fb7806467d7f06110676252bfd1c0fc653372147483f17303db6"
+    },
+    {
+      "path": "host/Cino.NativeHost.csproj",
+      "size_bytes": 601,
+      "sha256": "8ca94f14eecca055693c05b05abc85d38e86d57d8be21e2b9b4b7b705da55a72"
+    },
+    {
+      "path": "PRIVACY.md",
+      "size_bytes": 2084,
+      "sha256": "faac29d106d5baf53f23e46e2d66e5c5f94ff8666f8fc9b3a15042d1b19f4eed"
+    },
+    {
+      "path": "workbench/WorkspaceLease.cs",
+      "size_bytes": 919,
+      "sha256": "a09c61efb005c2a44d464fdb56c0fe6c60dcdb352d35662a64e774d68df47529"
+    }
+  ]
+}

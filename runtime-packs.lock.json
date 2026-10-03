@@ -1,0 +1,17 @@
+{
+  "schema": "cino.runtime-pack-lock.v1",
+  "packages": [
+    {
+      "package": "Microsoft.AspNetCore.App.Runtime.win-x64/8.0.30",
+      "sha512": "lC0XlOWsbeFLRPYYIQym85TR+pv5r3GBbGNtr8tu/af0CEGt+D75UQJdoNjyqdZNLAIUhnoF3TW4xbtZ7g7tPQ=="
+    },
+    {
+      "package": "Microsoft.NETCore.App.Runtime.win-x64/8.0.30",
+      "sha512": "7oiBHBIHoEFHkA0jHGrhg9CJ0EegAG5RJMazYl3EEYN7g0b0d7BLzGNCVqtNl+stACQxjQuHsYkmsS8SFABJVg=="
+    },
+    {
+      "package": "Microsoft.WindowsDesktop.App.Runtime.win-x64/8.0.30",
+      "sha512": "5xYRfW9lhAgCrHMhT3EJVUvd+IILYayjRRHChzEo1AYrSg2VK04mqNodtI/IAagdCLvXwS1d1Dc8qmye0d4KdA=="
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ManagementUrl": "",
+  "EnrollmentTokenFile": "",
+  "DisplayName": "CINO-AOS Windows Native Host",
+  "AllowLoopbackForTesting": false,
+  "ManagementRootCertificateFile": "",
+  "ManagementRootCertificateSha256": ""
+}
