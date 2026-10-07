@@ -17,6 +17,10 @@ CINO-AOS 在 Windows 提供的服务与用户会话中运行，Windows 内核、
 - The portable build does not install a Windows service, startup entry, driver or update task. Existing target-machine installation is unchanged.
 - No public signing certificate or free sponsorship has been obtained. Do not bypass Windows security to run a blocked binary.
 
+## Downloadable unsigned preview
+
+The release workflow builds the same public core and publishes a clearly labeled [unsigned portable preview](https://github.com/TorofSkiy/cino-aos-windows-native/releases/tag/v0.4.0-preview.1) after tests and an upload/download hash comparison. Check the release page and linked Actions run for completion. It does not deploy to target machines or submit a signing request. Standard public Windows runners and Release assets are used; no Actions artifact or cache storage is enabled by this workflow.
+
 ## Build from reviewed source
 
 Windows x64 with the exact .NET SDK in `global.json` (8.0.424); PowerShell 5.1 or later.

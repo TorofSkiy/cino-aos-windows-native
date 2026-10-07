@@ -41,6 +41,11 @@
       "sha256": "2267b5ad02d971b600fc8d6d974147b6495bb60abb70c1ba5dd02ea605dafa6a"
     },
     {
+      "path": "scripts/Publish-Preview.ps1",
+      "size_bytes": 6413,
+      "sha256": "6b633ab53593747f3e51468fabda9737650cdcabc970ecbd2dfa9df25b66e7b5"
+    },
+    {
       "path": "scripts/Test-Host.ps1",
       "size_bytes": 3181,
       "sha256": "b838c926d54f510eb1c76a0aa9c97126301db6c3d416b4c692017ebd7e3c278c"
@@ -51,14 +56,14 @@
       "sha256": "beb248e4f1733881162a14b3fc5990742e7c31ba3ed5b6667adfd465ab1878a3"
     },
     {
+      "path": "host/Protocol.cs",
+      "size_bytes": 6732,
+      "sha256": "57f1188795b97b1c6d6ee3613c6609b9a4c2c2f83e210a033fdfb76fec68e864"
+    },
+    {
       "path": "tests/workbench/Cino.Workbench.Tests.csproj",
       "size_bytes": 571,
       "sha256": "b25b922ec8851f80f18f24ec1ad416671023279181622bedf07dc80016d701e0"
-    },
-    {
-      "path": "tests/workbench/packages.lock.json",
-      "size_bytes": 71,
-      "sha256": "214aa11374a97df8985e42944a13603eb0f3fd0455b7e238b6f42baa976641a4"
     },
     {
       "path": "tests/workbench/Program.cs",
@@ -106,9 +111,9 @@
       "sha256": "6a02d5d6c0a7f3407cb1d1c13d31582c3611cf00a4935ce33a504c2759a0c736"
     },
     {
-      "path": "host/Protocol.cs",
-      "size_bytes": 6732,
-      "sha256": "57f1188795b97b1c6d6ee3613c6609b9a4c2c2f83e210a033fdfb76fec68e864"
+      "path": "tests/workbench/packages.lock.json",
+      "size_bytes": 71,
+      "sha256": "214aa11374a97df8985e42944a13603eb0f3fd0455b7e238b6f42baa976641a4"
     },
     {
       "path": "host/Program.cs",
@@ -171,19 +176,19 @@
       "sha256": "b43595b7544bffc7e52b70c3c52772f56bdf1ad0a4e3720c9dbb512f55aa0879"
     },
     {
-      "path": "workbench/Workspace.cs",
-      "size_bytes": 8335,
-      "sha256": "a22f561c1c14bae9990acc4c7f7904885a201a6b0876da9fb000435c0f18dd5f"
-    },
-    {
       "path": "NuGet.Config",
       "size_bytes": 300,
       "sha256": "ae1e57cb6f58e4c812438a27458617320d7eddaf2842a5b38bb1bea7bbe32c4d"
     },
     {
+      "path": "PRIVACY.md",
+      "size_bytes": 2084,
+      "sha256": "faac29d106d5baf53f23e46e2d66e5c5f94ff8666f8fc9b3a15042d1b19f4eed"
+    },
+    {
       "path": "README.md",
-      "size_bytes": 4902,
-      "sha256": "c53e5d7b0c52996e0a9648abad5abba0d81997b55750cc526a0059fe67f1b5e5"
+      "size_bytes": 5438,
+      "sha256": "bfb56544852252f57cadc1b6ec6331aebc79efb262acbee3cdb6a2b335cb47c3"
     },
     {
       "path": "RELEASE_CHECKLIST.md",
@@ -221,14 +226,19 @@
       "sha256": "7a5e048ee6a0fb7806467d7f06110676252bfd1c0fc653372147483f17303db6"
     },
     {
+      "path": ".github/workflows/release-preview.yml",
+      "size_bytes": 1245,
+      "sha256": "ceb9b205513171355134062e66582f8f2293a80566776b07e009ab0290bce6be"
+    },
+    {
       "path": "host/Cino.NativeHost.csproj",
       "size_bytes": 601,
       "sha256": "8ca94f14eecca055693c05b05abc85d38e86d57d8be21e2b9b4b7b705da55a72"
     },
     {
-      "path": "PRIVACY.md",
-      "size_bytes": 2084,
-      "sha256": "faac29d106d5baf53f23e46e2d66e5c5f94ff8666f8fc9b3a15042d1b19f4eed"
+      "path": "workbench/Workspace.cs",
+      "size_bytes": 8335,
+      "sha256": "a22f561c1c14bae9990acc4c7f7904885a201a6b0876da9fb000435c0f18dd5f"
     },
     {
       "path": "workbench/WorkspaceLease.cs",
