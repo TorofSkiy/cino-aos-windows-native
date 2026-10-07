@@ -4,6 +4,8 @@ Status: no code-signing service approved; no SignPath Foundation sponsorship cla
 
 Only public first-party source in this repository is proposed for free OSS signing. Publication of this source snapshot under Apache-2.0 has been authorized. Models, private configuration, credentials and separately owned components are excluded. No commercial dual-license arrangement is offered for this component.
 
+Project roles: [TorofSkiy](https://github.com/TorofSkiy) is the committer, reviewer and proposed human release-signing approver. This is a single-maintainer project; independent review or certification is not claimed. Automated agents cannot approve signing requests. SignPath permissions and manual approval must be configured during onboarding.
+
 Proposed pipeline:
 1. Named authors submit changes; a named reviewer reviews the exact diff and dependency changes. Use MFA and protected branches.
 2. Build the reviewed commit on a standard GitHub-hosted Windows runner using locked dependencies.
@@ -14,7 +16,7 @@ Proposed pipeline:
 
 Do not sign arbitrary uploaded binaries. Do not replace Microsoft's runtime signatures. No auto-approval, public API token, direct push-to-deploy or subscription purchase is configured here.
 
-Before applying for signing: complete the outstanding reviewer/approver roles, private security contact, release history and build provenance in RELEASE_CHECKLIST.md. The repository is https://github.com/TorofSkiy/cino-aos-windows-native and its maintainer is TorofSkiy. If accepted, add the Foundation's exact required attribution and actual signing policy; do not fabricate acceptance.
+Before applying for signing: verify the named roles, applicant contact information, release evidence and build provenance in RELEASE_CHECKLIST.md. The repository is https://github.com/TorofSkiy/cino-aos-windows-native and its maintainer is TorofSkiy. If accepted, add the Foundation's exact required attribution and actual signing policy; do not fabricate acceptance.
 
 Sources:
 - https://signpath.org/terms.html

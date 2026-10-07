@@ -137,8 +137,8 @@
     },
     {
       "path": "CODE_SIGNING_POLICY.md",
-      "size_bytes": 2073,
-      "sha256": "21fdeff23c8d85077a0f647cf3bc1da6e58a4da47df2929c5f73030cac7f93cd"
+      "size_bytes": 2401,
+      "sha256": "608bcfed4728f662e1f4fda0db83324a4c06913118f69f8fe4be0bdd37f37518"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -192,8 +192,8 @@
     },
     {
       "path": "RELEASE_CHECKLIST.md",
-      "size_bytes": 2358,
-      "sha256": "fcc1690f0dc9f647d85e7cf3ec7b58ec5fc966cd37d1add4a0de581b4011200b"
+      "size_bytes": 2172,
+      "sha256": "630fa022a92384c9ef1754d969fdee2cc2f17367cbc0f7a4bf3b4e5ec36e61eb"
     },
     {
       "path": "runtime-packs.lock.json",
@@ -207,8 +207,8 @@
     },
     {
       "path": "SIGNPATH_APPLICATION_DRAFT.md",
-      "size_bytes": 1826,
-      "sha256": "f5f1ddd5b464390c6c57ae4f77dadfcaaff57afa2bf8217d7bf23526fdc024e8"
+      "size_bytes": 2583,
+      "sha256": "fb9c04d0c7a41e6e3e4b75d636d1c4aa5c562c4552ece9a3bd5ad6cdc6ed5979"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

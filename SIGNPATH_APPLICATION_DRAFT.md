@@ -1,23 +1,26 @@
-# SignPath application material — not submitted
+# SignPath application material — not yet confirmed submitted
 
-Project name: CINO-AOS Windows Native
-Category: Windows native human–machine collaboration core (service/desktop)
-License: Apache-2.0; source publication authorized
-Funding request: free open-source signing sponsorship; no paid plan authorized
-Public repository URL: https://github.com/TorofSkiy/cino-aos-windows-native
-Source: repository main branch; versioned binary release: not yet available
-Project reputation: not yet established/verified; no claim of prior adoption
-Maintainer: TorofSkiy; independent reviewer/release approver roles: pending
-Security contact: pending owner confirmation
-CI provenance: consult repository Actions; a signing artifact and its provenance must be selected and verified before application
-Candidate first-party executables: Cino.NativeHost.exe, Cino.Workbench.exe
-Third-party components: .NET runtime/hosting dependencies; original notices/signatures retained
-Privileged/system integration: source supports a Windows service, but this first portable preview does not install one; no kernel driver or security-policy changes
-Data behavior and removal: see PRIVACY.md and README.md
-Testing: local isolated workspace tests and real loopback Host process; physical deployment validation is separate
+- Project: CINO-AOS Windows Native
+- License: Apache-2.0 for public first-party code; upstream licenses and signatures retained
+- Maintainer: [TorofSkiy](https://github.com/TorofSkiy)
+- Repository: https://github.com/TorofSkiy/cino-aos-windows-native
+- Download: https://github.com/TorofSkiy/cino-aos-windows-native/releases/tag/v0.4.0-preview.1
+- Successful build: https://github.com/TorofSkiy/cino-aos-windows-native/actions/runs/37577807061
+- Build commit: 75000443230cab489b1fb1160aa54b886657224d
+- Requested service: free open-source sponsorship only; no paid subscription
+- Own binary signing candidates: Cino.NativeHost.exe and Cino.Workbench.exe
+- Roles: TorofSkiy is committer, reviewer and proposed human signing approver; this is a single-maintainer project, without a claimed independent audit
+- Contact: applicant enters their own contact information privately in the official form
+- Status: no sponsorship, certificate, signing account or completed physical deployment is claimed
 
-Application note draft:
-“We are preparing an openly licensed Windows collaboration core with inspectable source, locked builds and human-approved release signing. We will provide the public repository, release history, CI artifact provenance, license inventory, named roles and security contact before applying. We understand that sponsorship is subject to your eligibility and review and that our local build does not establish project reputation.”
+Application summary:
 
-Do not submit this incomplete draft or represent the project as accepted by SignPath.
+CINO-AOS Windows Native is an openly licensed Windows x64 collaboration core with a WPF workbench and native Host. It supports local artifacts, editable copies, history, file integrity and local inference integration. Models and an inference engine are not bundled. Operator-configured network enrollment and typed task requests require a compatible management backend supplied separately.
 
+The public portable build uses pinned .NET dependencies on a standard GitHub Windows runner. The build tests actual local workspace behavior and an isolated Host process. The release preserves upstream runtime signatures and includes license texts, dependencies, provenance and checksums. It installs no service, scheduled task, driver or security-policy change. Usage and removal are documented in README.md.
+
+We request free signing sponsorship for our own two executables. The private target-specific installer and management backend are excluded. Each future signing request requires human approval and MFA. This is an early-stage project with an initial binary preview; no established adoption or production certification is claimed. We understand that sponsorship is subject to the Foundation's eligibility and reputation review.
+
+[Code signing policy](CODE_SIGNING_POLICY.md) · [Privacy](PRIVACY.md) · [Use and removal](README.md#local-use-and-removal)
+
+Only mark the application submitted after receiving an actual submission confirmation. Add required sponsorship attribution only after acceptance.
